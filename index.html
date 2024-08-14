@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formacion Virtual | Bienvenida</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Stint+Ultra+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="header" id="inicio">
+        <h1>
+            <img src="images/logo.png" alt="Logo">
+        </h1>
+    </header>
+
+    <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#quienes-somos">Quiénes Somos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#tarifas">Tarifas</a>
+        <a href="#localizacion">Localización</a>
+    </nav>
+
+    <section id="quienes-somos" class="content who">
+        <h2 class="title">Quiénes Somos</h2>
+        <p>Forjar un futuro de posibilidades para personas talentosas y apasionadas.</p>
+        <p>
+            Brindando oportunidades a personas talentosas con el fin de impulsar su transformación educativa y tecnológica, 
+            lo cual genera un impacto social significativamente muy grande.
+        </p>
+    </section>
+
+    <section id="servicios" class="content services">
+        <h2 class="title">Servicios</h2>
+        <p>Únete a nuestra comunidad y desarrolla tu futuro en la transformación digital.</p>
+        <ul class="list-services">
+            <li>
+                <figure>
+                    <img src="images/ico1.png" alt="Angular">
+                    <figcaption>Angular</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/ico2.png" alt="React">
+                    <figcaption>React</figcaption>
+                </figure>
+            </li>
+            <li>
+                <figure>
+                    <img src="images/ico3.png" alt="Vuejs">
+                    <figcaption>Vuejs</figcaption>
+                </figure>
+            </li>
+        </ul>
+    </section>
+
+    <section id="tarifas" class="content tarifas">
+        <article class="contain">
+            <h2 class="title">Tarifas</h2>
+            <p>SEMESTRAL $20.00</p>
+            <p>
+                Un solo pago de $20.00, donde se tendrá acceso al curso inscrito, videos y actividades totalmente en español, 
+                certificado de participación, foro y comunidad exclusiva para resolver dudas.
+            </p>
+            <a href="#contacto">Contáctanos</a>
+        </article>
+    </section>
+
+    <section id="opiniones" class="content opiniones">
+        <h2 class="title">Opiniones</h2>
+        <div class="opinion-box">
+            <blockquote>
+                <p>"Formación Virtual ha transformado nuestra manera de trabajar con su increíble equipo y servicios."</p>
+                <cite>- Juan Pérez, CEO de Empresa X</cite>
+            </blockquote>
+        </div>
+        <div class="opinion-box">
+            <blockquote>
+                <p>"La dedicación y profesionalismo de Formación Virtual es inigualable. ¡Altamente recomendado!"</p>
+                <cite>- María García, CTO de Empresa Y</cite>
+            </blockquote>
+        </div>
+    </section>
+
+    <section id="localizacion" class="content localizacion">
+        <h2 class="title">Localización</h2>
+        <p>Avenida Santa Ana California, Santa Ana, El Salvador</p>
+        <div id="map"></div>
+        <h3>Formulario de Contacto</h3>
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Fazt. Todos los derechos reservados.</p>
+        <nav class="footer-nav">
+            <a href="#inicio">Inicio</a>
+            <a href="#quienes-somos">Quiénes Somos</a>
+            <a href="#servicios">Servicios</a>
+            <a href="#tarifas">Tarifas</a>
+            <a href="#localizacion">Localización</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </footer>
+    
+</body>
+</html>
